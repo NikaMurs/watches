@@ -1,0 +1,29 @@
+.watchItem{
+    display: flex;
+    justify-content: space-between;
+}
+
+.watchItem:nth-child(n+2){
+    margin-top: 20px;
+}
+
+.watchItem p{
+    margin: 0;
+    text-align: center;
+    width: 33%;
+}
+
+.watchItemDelete{
+    width: 33%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.watchItemDelete button{
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #202024;
+    border: none;
+    cursor: pointer;
+}
