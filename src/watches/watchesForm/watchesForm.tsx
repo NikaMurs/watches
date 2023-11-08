@@ -32,7 +32,7 @@ export default function WatchesForm(props:WatchesFormProp){
                 <label htmlFor="watchesTimeZone">Временная зона</label>
                 <input type="number" required min={-12} max={12} id="timeZone" name="timeZone" value={form.timeZone} onChange={onChange} />
             </div>
-            <button className="watchesFormSubmit">Ок</button>
+            <button className="watchesFormSubmit">Добавить</button>
         </form>
     )
 }
