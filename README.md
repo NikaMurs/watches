@@ -17,6 +17,6 @@
 Проект был реализован с использованием следующих технологий:
 - HTML
 - CSS
-- JavaScript
+- TypeScript
 - React
 - Moment.js
